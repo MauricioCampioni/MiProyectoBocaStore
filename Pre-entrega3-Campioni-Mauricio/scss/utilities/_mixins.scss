@@ -1,0 +1,13 @@
+@mixin Propiedades-Flex ($area, $column, $row){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin Propiedades-Grids ($area, $column, $row) {
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 40px;
+}
