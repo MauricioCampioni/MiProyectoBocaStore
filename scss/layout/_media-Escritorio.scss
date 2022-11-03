@@ -1,0 +1,29 @@
+@media (min-width:992px){
+    nav{
+        height: 80px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #MenuNavegacion{
+        flex-direction: row;
+        justify-content: center;
+    }
+   .LinkNavegacion{
+        margin: 20px;
+    }
+    #BocaStore{
+        margin-left: 30px;
+    }
+    #BannerLogo{
+        height: 200px;
+    }
+    #ProductosMujer{
+        height: 720px;
+    }
+    #ProductosNiños{
+        height: 720px;
+    }
+    #ProductosHombre{
+        height: 750px;
+    }
+}

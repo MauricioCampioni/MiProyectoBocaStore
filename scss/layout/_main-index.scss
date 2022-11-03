@@ -1,0 +1,66 @@
+main {
+    width: 100%;
+    height: fit-content;
+    background-color: #c1cd8e;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    h3{
+        color: rgb(11, 6, 6);
+        font-family: monospace;
+        font-size: 30px;
+        margin: 5px 0px;
+        } 
+    }
+    #BannerLogo{
+        width: 100%;
+        height: 100px;
+    }
+    #BannerImagen{
+        width: 100%;
+        height: 100%;
+    }
+#TituloProductos_Destacados{
+    margin-top: 30px;
+    text-align: center;
+}
+#ProductosDestacados{
+    margin-bottom: 40px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 40px;
+}
+.Remera{
+    box-shadow: 3px 2px 5px black;
+    transition: all 500ms;
+    border-style: solid;
+    border-width: 1px;
+    width: 150px;
+    height: 200px;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.Short{
+    @extend .Remera
+}
+.ImagenRemera{
+    width: 100%;
+    height: 150px;
+}
+.ImagenShort{
+    @extend .ImagenRemera
+}
+.ColorLink{
+    transition: all 200ms;
+    color: blue;
+    &:hover{
+        color: rgb(2, 0, 0);
+    } 
+}

@@ -1,0 +1,30 @@
+header{
+    background-color: $Background-principal;
+    nav{
+    align-items: center;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+}
+#MenuNavegacion{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    a{
+        text-decoration: none;
+    }
+}
+.LinkNavegacion{ 
+    margin: 0px 50px;
+}
+.ColorLink{
+    transition: all 200ms;
+    color: blue;
+}
+.ColorLink:hover{
+    color: rgb(2, 0, 0);
+}
