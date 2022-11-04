@@ -1,6 +1,7 @@
 header{
     background-color: $Background-principal;
     nav{
+    font-size: 20px;
     align-items: center;
     height: 180px;
     display: flex;
@@ -9,6 +10,7 @@ header{
     text-align: center;
     }
 }
+
 #MenuNavegacion{
     list-style: none;
     display: flex;

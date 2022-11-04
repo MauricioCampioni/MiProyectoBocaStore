@@ -1,10 +1,13 @@
 @media (min-width:992px){
-    nav{
-        height: 80px;
-        flex-direction: row;
-        justify-content: space-between;
+    header{
+        nav{
+            height: 80px;
+            flex-direction: row;
+            justify-content: space-between;
+        }
     }
     #MenuNavegacion{
+        width: fit-content;
         flex-direction: row;
         justify-content: center;
     }
@@ -12,6 +15,9 @@
         margin: 20px;
     }
     #BocaStore{
+        font-size: 40px;
+        flex-direction: row;
+        width: fit-content;
         margin-left: 30px;
     }
     #BannerLogo{
@@ -24,6 +30,7 @@
         height: 720px;
     }
     #ProductosHombre{
+        grid-template-columns: repeat(3,auto);
         height: 750px;
     }
 }

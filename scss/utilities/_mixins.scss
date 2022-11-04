@@ -1,10 +1,10 @@
-@mixin Propiedades-Flex ($area, $column, $row){
+@mixin Props-Flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-@mixin Propiedades-Grids ($area, $column, $row) {
+@mixin Props-Grids  {
     display: grid;
     grid-template-columns: repeat(1,auto);
     grid-template-columns: repeat(3,auto);

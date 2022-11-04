@@ -1,7 +1,13 @@
 main {
     width: 100%;
     height: fit-content;
-    background-color: #c1cd8e;
+    background-image: linear-gradient(
+	0deg,
+	rgba(0,0,0,0.2),
+	rgba(0,0,0,0.3)),
+    url("/assets/img/BackgroundBoca.jpg");
+    background-size: contain;
+    background-position: center center;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -11,6 +17,10 @@ main {
         font-size: 30px;
         margin: 5px 0px;
         } 
+    }
+    #BocaStore{
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     #BannerLogo{
         width: 100%;
@@ -37,7 +47,8 @@ main {
     grid-gap: 40px;
 }
 .Remera{
-    box-shadow: 3px 2px 5px black;
+    background-color: white;
+    box-shadow: 3px 2px 5px rgb(9, 6, 6);
     transition: all 500ms;
     border-style: solid;
     border-width: 1px;
